@@ -12,7 +12,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import accuracy_score
 
 # Load dataset
-df = pd.read_csv(r"C:\Users\HP\Downloads\spam.csv")
+df = pd.read_csv(r"C:\Users\HP\Downloads\spam.csv") # change url according to your dataset location 
 
 # Preprocess data
 bow = CountVectorizer(stop_words='english')
